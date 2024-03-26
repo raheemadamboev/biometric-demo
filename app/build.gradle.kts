@@ -69,6 +69,9 @@ dependencies {
     // core
     implementation(libs.core)
 
+    // appcompat
+    implementation(libs.appcompat)
+
     // biometric
     implementation(libs.biometric)
 }

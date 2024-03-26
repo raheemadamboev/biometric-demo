@@ -4,7 +4,8 @@ compose = "2024.03.00"
 compose-activity = "1.8.2"
 compose-lifecycle = "2.7.0"
 core = "1.12.0"
-biometric = "1.1.0"
+appcompat = "1.6.1"
+biometric = "1.2.0-alpha05"
 
 android = "8.3.1"
 kotlin = "1.9.23"
@@ -12,7 +13,7 @@ kotlin = "1.9.23"
 sdk-min = "26"
 sdk-compile = "34"
 sdk-target = "34"
-compose-compiler = "1.5.8"
+compose-compiler = "1.5.11"
 java-target = "17"
 
 [libraries]
@@ -25,6 +26,7 @@ compose-material3 = { group = "androidx.compose.material3", name = "material3" }
 compose-activity = { group = "androidx.activity", name = "activity-compose", version.ref = "compose-activity" }
 compose-lifecycle = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "compose-lifecycle" }
 core = { group = "androidx.core", name = "core-ktx", version.ref = "core" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 biometric = { group = "androidx.biometric", name = "biometric-ktx", version.ref = "biometric" }
 
 [plugins]

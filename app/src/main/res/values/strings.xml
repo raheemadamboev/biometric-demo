@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">BiometricDemo</string>
+
+    <!-- Main -->
+    <string name="biometric_title">Title</string>
+    <string name="biometric_subtitle">Subtitle</string>
+    <string name="biometric_description">Description</string>
+    <string name="authenticate">Authenticate</string>
+    <string name="hardware_not_supported">Hardware is not supported</string>
+    <string name="hardware_unavailable">Hardware is unavailable</string>
+    <string name="authentication_failed">Authentication is failed</string>
+    <string name="authentication_success">Authentication is successful</string>
+    <string name="authentication_not_set">Authentication is not set</string>
 </resources>
